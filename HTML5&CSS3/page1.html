@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 5px dashed oldlace;
+            margin: 30px;
+            padding: 5px;
+        }
+        *{
+            color: black;
+        }
+        body{
+           /* background: url('image.WEBP') repeat fixed center; */
+            background-color: wheat;
+           /* background-image:url('image.WEBP') ; */
+           /* background-attachment: fixed; */
+           /* background-position: left top;
+           background-position: right top;
+           background-position: bottom;
+           background-position: top; */
+           /* background-position: center; */
+           /* background-position: center right;
+           background-position: center left;
+           background-position: bottom right;
+           background-position: bottom left; */
+           /* background-size: auto; */
+           /* background-size: cover;
+           background-size: contain; */
+           
+        }
+        .box-1{
+            border-radius: 10px;
+            background-color: red;
+            margin-right: 150px;
+        }
+        .box-2{
+            border-radius: 10px;
+            background-color: rgb(183, 98, 98);
+            margin-left: 150px;
+        }
+        .box-3{
+            border-radius: 10px;
+            background-color: rgb(155, 32, 32);
+            margin-right: 150px;
+        }
+        .box-4{
+            border-radius: 10px;
+            background-color: rgb(54, 1, 1);
+            color: aqua;
+            margin-left: 150px;
+        }
+        
+        h1{
+            text-align: center;
+        }
+        img{
+            width: 100px;
+            height: 100px;
+            margin: 70px;
+        }
+        .box-5{
+            margin: 10px 30px;
+            background-image: url('data:image/jpeg;base64,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');
+        }
+       
+        h1{
+            text-align: center;
+            text-decoration: underline;
+        }
+        li{
+            display: inline;
+            padding-right: 30px;
+        }
+
+        a:link{
+            text-decoration: none;
+        }
+        ul {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1> Page 1 </h1>
+
+    
+    <ul>
+        &nbsp;&nbsp;&nbsp; <a href="web.html"> Home </a>
+        &nbsp;&nbsp;&nbsp; <a href="page1.html"> Page 1 </a>
+        &nbsp;&nbsp;&nbsp; <a href="float.html"> float </a>
+        &nbsp;&nbsp;&nbsp; <a href="link.html"> Link </a>
+        &nbsp;&nbsp;&nbsp; <a href="inline.html"> Inline </a>
+        &nbsp;&nbsp;&nbsp; <a href="visibility.html"> visibility </a>
+        &nbsp;&nbsp;&nbsp; <a href="Position.html"> Position </a>
+        &nbsp;&nbsp;&nbsp; <a href="importan.html"> importan </a>
+        &nbsp;&nbsp;&nbsp; <a href="overflow.html"> overflow </a>
+        &nbsp;&nbsp;&nbsp; <a href="CursorStyle.html"> CursorStyle </a>
+        &nbsp;&nbsp;&nbsp; <a href="box-chadow.html"> box-chadow </a>
+        &nbsp;&nbsp;&nbsp; <a href="opacity.html"> opacity </a>
+
+    </ul>
+    <hr>
+
+    <div class="box-1"> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quibusdam laborum libero nemo debitis et deserunt. Ab nisi fuga odio, optio sit culpa adipisci, aliquid odit, autem voluptatem tempora accusamus.
+    </div>
+    <div class="box-2"> 
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, odio aliquid? Animi ratione nisi dolorum, natus ex voluptatum sit quis.
+    </div>
+    <div class="box-3"> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores tempora fugit, quod deleniti veritatis esse, illum facilis id, iure optio voluptatem quidem officiis sed voluptates dolorum nostrum commodi eligendi voluptatum sint laudantium distinctio eos obcaecati? Ipsam quasi modi veritatis tempora.
+    </div>
+    <div class="box-4"> 
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus inventore veritatis dignissimos porro dolores adipisci eos ullam. Odio cum tempore saepe excepturi fugit pariatur laudantium.
+    </div>
+    <div class="box-5"> 
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae sapiente possimus sequi eum corrupti rerum? Explicabo quam at maxime accusamus nulla, amet et necessitatibus, saepe dolor repudiandae vitae optio minima, accusantium cumque voluptatem suscipit quo nostrum alias. Porro, facere et!
+    </div>
+    <hr>
+
+    <img src="https://cdn.pixabay.com/photo/2024/02/10/08/01/mountains-8564328_640.png" alt="รูป">
+    <img src="https://cdn.pixabay.com/photo/2024/02/10/08/01/mountains-8564328_640.png" alt="รูป">
+    <img src="https://cdn.pixabay.com/photo/2024/02/10/08/01/mountains-8564328_640.png" alt="รูป">
+
+</body>
+</html>

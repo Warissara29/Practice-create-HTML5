@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+h1{
+    font-style: italic;
+    text-decoration: underline;
+    color: brown;
+    text-align: center;
+    font-size: 170%;
+    /* text-decoration: line-through;  เขียนทับตัวอักษร */  
+}
+
+h2{
+    color: hsl(102, 69%, 23%); 
+    font-size: 150%;
+    text-decoration: underline;
+}
+p{
+    color: black;
+    text-align: left; /*กำหนดแท็ก p ให้ตัวอักษรเป็นสีดำ ชิดซ้าย*/
+}
+
+hr{
+    margin-bottom: 50px;
+}
+*{
+    background-color: #d3f0c7;
+    font-size: 100%;
+    font-weight: bolder;
+    font-family: "Anta", sans-serif;
+}
+span{
+    border: 1px solid  black;
+    width: 700px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    padding: 10px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1f5408;
+}
+ul{
+    text-align: center;
+}
+.box-1{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: solid 5px red;
+    
+}
+.box-2{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: dotted 5px #1f5408;
+}
+.box-3{
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    border: dashed 5px oldlace;
+}
+.box-4{
+    width: 100px;
+    height: 100px;
+    background-color: khaki;
+    border-radius:  10px; /*กำหนดเส้นโค้ง*/
+    border: solid violet;
+}
+.box-5{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-top: solid;
+    border-left: dashed;
+    border-right: dotted;
+    border-bottom: groove;
+    border-width: 4px;
+    border-color:brown;
+    border-radius: 10px;
+}
+.box-6{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-style: groove;
+    border-top-right-radius: 30px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 90px;
+
+}
+.box-7{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-style: ridge;
+    border-radius: 10px 20px 30px 40px;
+}
+.box-8{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius:  10px; /*กำหนดเส้นโค้ง*/
+    border-style: outset;
+    border-radius: 40px 50px 20px;
+}
+input{
+    background-color: white;
+}
+img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    border-radius:  30px;
+}
+button{
+   position: fixed;
+   right: 100px;
+}
+a{
+    color: black;
+}
+

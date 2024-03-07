@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        div{
+            text-align: center;
+        }
+        a{
+            text-decoration: none;  /*   text-decoration คือ การลูกเล่นเกี่ยวกับตัวอักษร */
+        }
+        a:link{ /*แสดงผลเมื่อยังไม่กด link */
+            color: blue;
+        }
+        a:visited{/*แสดงผลเมื่อกด link * แล้ว */
+            color: brown;
+        }
+        a:hover{ /*แสดงลูกเล่นเมื่อสัมผัล  Link*/
+            text-decoration: underline;
+            background-color: aquamarine;
+            color: blue;
+        }
+        a:active{ /*แสดงลูกเล่นเมื่อคลิก Link แช่ไว้ */
+            background-color: bisque;
+            color: red;
+            
+        }
+        li{
+            display: inline;
+            padding-right: 30px;
+        }
+
+        a:link{
+            text-decoration: none;
+        }
+        ul {
+            text-align: center;
+            background-color: antiquewhite;
+        
+        }
+    </style>
+</head>
+<body>
+    <h1> The Link </h1>
+
+    <div>
+        <ul>
+            &nbsp;&nbsp;&nbsp; <a href="web.html"> Home </a>
+            &nbsp;&nbsp;&nbsp; <a href="page1.html"> Page 1 </a>
+            &nbsp;&nbsp;&nbsp; <a href="float.html"> float </a>
+            &nbsp;&nbsp;&nbsp; <a href="link.html"> Link </a>
+            &nbsp;&nbsp;&nbsp; <a href="inline.html"> Inline </a>
+            &nbsp;&nbsp;&nbsp; <a href="visibility.html"> visibility </a>
+            &nbsp;&nbsp;&nbsp; <a href="Position.html"> Position </a>
+            &nbsp;&nbsp;&nbsp; <a href="importan.html"> importan </a>
+            &nbsp;&nbsp;&nbsp; <a href="overflow.html"> overflow </a>
+            &nbsp;&nbsp;&nbsp; <a href="CursorStyle.html"> CursorStyle </a>
+            &nbsp;&nbsp;&nbsp; <a href="box-chadow.html"> box-chadow </a>
+            &nbsp;&nbsp;&nbsp; <a href="opacity.html"> opacity </a>
+    
+        </ul>
+    </div>
+
+    <hr>
+    <ul>
+        <li> <a href="web.html">Home</a> </li>
+        <li> <a href="link.html"> Link </a></li>
+        <li> <a href="float.html">Float </a></li>
+        <li> <a href="page1.html">page1</a></li>
+        <li> <a href="inline.html">inline</a></li>
+        <li> <a href="visibility.html"> visibility</a></li>
+    </ul> 
+    <hr>
+</body>
+</html>
